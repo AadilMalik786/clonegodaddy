@@ -762,18 +762,34 @@ ul li a {
         
     }
     .container17{
-        background-color: black;
+        background-color: black; 
+        /* background-color: blue; */
         width: 100%;
-        margin-top: 1px;
+        /* margin-top: 1px; */
+    }
+    .container18{
+        background-color: black; 
+        /* background-color: blue; */
+        width: 100%;
+        /* margin-top: 1px; */
     }
     .container17 ul li div{
         display: none;
         color: white;
-        flex-grow: 2;
+        /* flex-grow: 2; */
         /* background-color: red; */
         /* width: 95%; */
         /* height: 15px; */
-        text-align: end;
+        /* text-align: end; */
+    }
+    .container18 ul li div{
+        display: none;
+        color: white;
+        /* flex-grow: 2; */
+        /* background-color: red; */
+        /* width: 95%; */
+        /* height: 15px; */
+        /* text-align: end; */
     }
     .plus{
         display: flex;
@@ -787,28 +803,65 @@ ul li a {
         flex-grow: 2;
         /* background-color: green; */
     }
-    .container17 ul{
+    .container17 ul {
         display: flex;
         margin-left: 20px;
         flex-direction: column;
-        gap: 20px;
+        /* gap: 100px; */
+    }
+    .container18 ul{
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+        /* gap: 20px; */
+        
     }
     .plus1{
-        flex-grow: 2;
-        text-align: end;
+        /* flex-grow: 2; */
+        /* text-align: end; */
         cursor: pointer;
         /* display: none; */
         /* width: 100%; */
         /* background-color: blue; */
     }
-    .container17 ul li a{
-               /* display: none; */
+    .minus1{
+        /* background-color: blue; */
+
+         color: white;
+        cursor: pointer; 
+    }
+    .container17 ul .listi{
+               display: none;
+               display: flex;
+               flex-direction: column;
+               gap: 20px;
         /* list-style: none; */
         text-decoration: none;
         /* color: black; */
     }
+    .container18 ul .listione{
+               display: none;
+               display: flex;
+               flex-direction: column;
+               gap: 20px;
+        /* list-style: none; */
+        text-decoration: none;
+        /* color: black; */
+    }
+   
    .container17 ul li {
         list-style: none;
+    }
+    .domoneparent{
+        position: absolute;
+        display: none;
+        height: 300px;
+        top: 60px;
+        width: 200px;
+        left: 20px;
+        background-color: white;
+        /* color: black; */
+        
     }
 
 
