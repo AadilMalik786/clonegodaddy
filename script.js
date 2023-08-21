@@ -49,7 +49,31 @@ function toggleElementsone() {
 }
 }
 
+// Check window width on initial load
+window.addEventListener("load", function() {
+  if (window.innerWidth <= 768 && window.innerWidth >= 320) {
+    toggleElements();
+  }
+});
 
+// Check window width on window resize
+window.addEventListener("resize", function() {
+  if (window.innerWidth <= 768 && window.innerWidth >= 320) {
+    toggleElements();
+  }
+});
+window.addEventListener("load", function() {
+  if (window.innerWidth <= 768 && window.innerWidth >= 320) {
+    toggleElementsone();
+  }
+});
+
+// Check window width on window resize
+window.addEventListener("resize", function() {
+  if (window.innerWidth <= 768 && window.innerWidth >= 320) {
+    toggleElementsone();
+  }
+});
 let domoneparent=document.querySelector(".domoneparent")
 function Ham(){
     if(domoneparent.style.display=="none")
